@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+    gap: 5vw;
+}
+
+.first-content{
+    background-color: chartreuse;
+    border-radius: 15px;
+    width: 40%;
+    height: 50%;
+    display: flex;
+    padding: 10vh 10vw 10vh 10vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.list-social{
+    display:flex;
+
+}
+.second-content{
+    position: absolute;
+    display: none;
+}
+
+.item-lista{
+    list-style: none;
+}

@@ -1,0 +1,20 @@
+O QUE FALTA FAZER
+
+- PAGINA DE SOBRE O SITE  ta feito
+    mudar o css
+
+- PAGINA DA SEÇÃO DIDATICA
+ - fazer o layout
+
+- PAGINA PRINCIPAL
+    - ajustar o css
+    - colocar o carrossel
+    - linkar o instagram, github e trabalho
+
+- SEÇÃO MUSICAL
+    -colocar músicas pra trocar
+- SEÇÃO DE ARTISTAS
+    - colocar os ARTISTAS
+    - pular pras telas dos artistaa
+
+    

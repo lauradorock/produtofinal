@@ -4,17 +4,12 @@
     box-sizing: border-box;
     outline: none;
     font-family: 'Inter', sans-serif;
-    
 }
 
-header{
-    padding: 10px;
-    background-color: rgb(255, 218, 51);
-    align-items:center;
-    justify-content: space-around;
-    /* justify-content:center; */
-    display: flex;
+body{
+    background-color: #fbffec;
 }
+
 .icon-text { font-size: 2em; }
 .icon {
 	position: relative;
@@ -26,12 +21,13 @@ header{
 	font-size:20px;
 }
 .menu-sidebar:hover,nav.menu-sidebar.expanded {
+  
   width:250px;
   overflow:visible;
 }
 .menu-sidebar {
 	width:65px;
-	height: 174.6vh;
+	height: 235.5vh;
 	top:0;
 	left:0;
 	bottom:0;
@@ -48,7 +44,7 @@ header{
 .menu-sidebar li {
   position:relative;
   display:block;
-  width: 250px;
+  width:250px;
 }
 
 .menu-sidebar li>a {
@@ -92,6 +88,7 @@ header{
     overflow-y:hidden;
 }
 .no-touch .scrollable.hover:hover {
+  
   overflow-y:auto;
   overflow:visible; 
 }
@@ -113,55 +110,107 @@ nav ul,nav li {
     color:#fff;
     background-color:#ffd20c;
 }
-.logo{
-    width: 70px;
-    border-radius:  100px;
-    margin-left: 40px;
-}
 
-.titulo{
-    font-style: normal;
-    font-weight: bold;
-    color: rgb(158, 121, 1);
-    margin-left: 300px;
-    margin-right: 130px;
+.artista{
+    padding: 20px;
+    /* margin-left: 0px; */
+    background-color: #ff0051;
+    display: flex;
     align-items: center;
-
+    justify-content: space-between;
 }
 
+.artista h3{
+    margin-left: 30px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    color: #ffc1d7;
+}
 
-#divBusca{
-    background-color:transparent;
-    border: solid 2px;
-    border-color: rgb(255, 241, 116);
-    border-radius:15px;
-    width: 350px;
-    height: 40px;
-  }
-  
-  #txtBusca{
-    float:left;
-    background-color:transparent;
-    color: white;
-    padding-left:5px;
-    /* font-style:italic; */
-    font-size:18px;
-    border:none;
-    height:32px;
-    width:260px;
-  }
+.artista p{
+    margin-left: 30px;
+    color: #5e0021;
+}
 
-  #btnBusca{
-    /* border:none;
-    float:left; */
-    height:32px;
-    margin-left: 40px;
-    margin-top: 3px;
-    border-radius:0 7px 7px 0;
-    width:30px;
-  }
+.artista img{
+    width: 120px;
+    margin-left: 150px;
+    border-radius: 100px;
+}
 
-::-webkit-input-placeholder  { color:rgb(245, 255, 245);}
+.header2{
+    padding: 15px;
+    text-align: center;
+    background-color: #ffdf3e;
+    color: #5e0021;
+}
+
+.footer{
+    background-color: rgb(255, 236, 152);
+    text-align: center;
+    padding: 65px;
+    align-items: center;
+    
+}
+
+.footer i{
+    color: rgb(255, 240, 189);
+    font-size: 30px;
+    background-color: rgb(255, 194, 27);
+    padding: 20px;
+    margin: 3px;
+    border-radius: 10px;
+}
+
+.footer i:hover{
+    background-color: rgb(255, 35, 72);
+    transition: 0.2s;
+}
+
+.footer p{
+    margin-top: 10px;
+    color: rgb(185, 142, 0);
+    font-size: 19px;
+}
+
+@media(max-width: 830px){
+    /* menu-mobile */
+    .ul{
+        position:fixed;
+        top: 0;
+        left: 0;
+        background-color: rgb(255, 230, 0);
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        clip-path: circle(0% at 100% 0);
+    }
+
+    .ul .open{
+        clip-path: circle(140.7% at 100% 0);
+        transition: 0.7s;
+    }
+
+    .ul a{
+        margin: 10px 0;
+        font-size: 16px;
+
+    }
+    nav .menuicon{
+        display: block;
+    }
+
+    nav .closeicon{
+        display: block;
+        position:absolute;
+        top: 46px;
+        right: 28px;
+
+    }
+}
 
 .container {
     display: flex;
@@ -169,7 +218,7 @@ nav ul,nav li {
     flex-wrap: wrap;
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 15px;
 }
 
 .column {
@@ -191,43 +240,4 @@ nav ul,nav li {
     /* border: 1px solid #ccc; */
     border-radius: 5px;
     background-color: #ff2873;
-}
-.footer{
-    background-color: rgb(255, 236, 152);
-    text-align: center;
-    align-items: center;
-    padding: 30px;
-}
-
-.footer i{
-    color: rgb(255, 246, 216);
-    font-size: 30px;
-    background-color: rgb(255, 194, 27);
-    padding: 10px;
-    margin: 3px;
-    border-radius: 10px;
-    /* position: fixed; */
-}
-
-.footer i:hover{
-    background-color: rgb(255, 35, 72);
-    color: #f7efcb;
-    transition: 0.2s;
-}
-
-.footer p{
-    margin-top: 10px;
-    color: rgb(185, 142, 0);
-}
-
-#btnBusca {
-  padding: 8px;
-  width: 70px;
-  margin-left: 10px;
-  cursor: pointer;
-  background-color:transparent;
-  color: #fff;
-  border: 1px solid;
-  border-color: #ffe063;
-  border-radius: 4px;
 }

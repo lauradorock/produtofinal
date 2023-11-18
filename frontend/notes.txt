@@ -1,20 +1,12 @@
-O QUE FALTA FAZER
+FALTA ENTREGA FINAL 21/11:
+- colocar favorito na musica 
+- banco de dados terminar
+- fazer api de cadastro e login
+- colocar api do spotify
 
-- PAGINA DE SOBRE O SITE  ta feito
-    mudar o css
+perguntar pra paula
+como colocar curtida nas musicas
+input de busca fazer funcionar OK
 
-- PAGINA DA SEÇÃO DIDATICA
- - fazer o layout
-
-- PAGINA PRINCIPAL
-    - ajustar o css
-    - colocar o carrossel
-    - linkar o instagram, github e trabalho
-
-- SEÇÃO MUSICAL
-    -colocar músicas pra trocar
-- SEÇÃO DE ARTISTAS
-    - colocar os ARTISTAS
-    - pular pras telas dos artistaa
-
-    
+ARRUMAR A CONEXAO DO SQL
+FAZER API DE LOGIN E cadastro

@@ -10,7 +10,7 @@ async function registro() {
     if (response.data.success === true) {
         // redirioba para logar
     } else {
-        alert("Nao deu pra logar")
+        alert("Não deu pra logar")
     }
     
 

@@ -14,6 +14,7 @@
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/artistas.css">
     <link rel="shortcut icon" type="imagex/png" href="img/icon.ico">
+    <script src="JS/busca.js" defer></script>
 
     <title>Acordes do Sol: Artistas</title>
 </head>
@@ -24,7 +25,7 @@
         <nav>
             <div id="divBusca">
                 <input type="text" id="txtBusca" placeholder="Buscar..."/>
-                <img src="img/search.png" id="btnBusca" alt="Buscar"/>
+                <button id="btnBusca">Buscar</button>
               </div>
 
               <div class="menu-sidebar">
@@ -92,7 +93,7 @@
         </nav>
     </header>
 
-    <div class="container">
+    <div class="container" id="listaItens">
 
         <div class="column">
             <a href="biografia.html"><div class="card">

@@ -46,12 +46,34 @@ input{
     border-style: solid;
 }
 
-.botao .btn{
-    height: 10vh;
-    width: 30vh;
-    align-items: center;
+button{
+    height: 7vh;
+    width: 25vh;
     background-color: rgb(255, 0, 85);
     border: none;
+    align-items: center;
+    color: rgb(255, 169, 235);
     border-radius: 100px;
     
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 105, 185);
+    font-weight: 800;
+}
+
+.cadastro{
+    position: absolute;
+    bottom: 98px;
+    left: 750px;
+}
+
+p{
+    text-align: center;
+    padding: auto;
+}
+
+button:hover{
+    background-color: rgb(153, 0, 54);
 }
